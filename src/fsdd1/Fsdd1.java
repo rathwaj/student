@@ -22,7 +22,7 @@ public class Fsdd1 {
         String word = input.nextLine();
         
         char[] name = new char[word.length()];
-        System.out.println("length of the text is : "+name.length);
+        System.out.println("length of the text is here: "+name.length);
         
         for (int i=0; i<word.length(); i++){
         
