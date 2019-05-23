@@ -12,7 +12,8 @@ import java.util.Scanner;
  * @author jayra
  */
 public class Fsdd1 {
-
+        
+    private int maxCourse;
     /**
      * @param args the command line arguments
      */
@@ -35,9 +36,23 @@ public class Fsdd1 {
         }
         System.out.println(" ");
         // TODO code application logic here
-        System.out.print("Jay");
-        System.out.print("Fatch Example");
+        System.out.println("Jay");
+        System.out.println("Fatch Example");
         System.out.print("Jindagi me Mirzapur to dekhna hi chahie");
+    }
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
     }
 
 }
