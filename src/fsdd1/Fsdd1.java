@@ -36,6 +36,7 @@ public class Fsdd1 {
         System.out.println(" ");
         // TODO code application logic here
         System.out.print("Jay");
+        System.out.print("Fatch Example");
     }
 
 }
